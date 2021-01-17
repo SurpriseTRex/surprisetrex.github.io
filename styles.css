@@ -3,12 +3,16 @@ html {
     text-align: center;
     color: #555;
     background-color: #fff;
-}
-
-p {
     font-family: "Josefin Sans", sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 4px;
+}
 
 h1, h2 {
     margin: 0 auto 10px auto;
@@ -35,6 +39,11 @@ p {
     margin: 0 0 3px 0;
 }
 
+.quote {
+    background-color: #eee;
+    padding: 30px 10px;
+}
+
 .splash {
     margin: 0 auto;
     background-position: center; 
@@ -57,9 +66,15 @@ p {
     background-image: url("splash3.jpg");
 }
 
-.rainbow-text {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(255, 208, 0), orange, red);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
+.float-container {
+    width: 60%;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+.float-child {
+    width: 45%;
+    margin: 30 10px;
+    float: left;
+}  
