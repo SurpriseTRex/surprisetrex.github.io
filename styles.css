@@ -1,0 +1,65 @@
+html {
+    margin-top: 100px;
+    text-align: center;
+    color: #555;
+    background-color: #fff;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+h1, h2 {
+    margin: 0 auto 10px auto;
+    width: fit-content;
+    font-family: 'caveat brush', cursive;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h1 {
+    color: #fff;
+    width: 556px;
+    font-size: 3.5em;
+}
+
+.title {
+    font-size: 2.3em;
+    display: block;
+}
+
+p {
+    margin: 0 0 3px 0;
+}
+
+.splash {
+    margin: 0 auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 556px;
+    height: 186px;
+    line-height: 186px;
+}
+
+.splash1 {
+    background-image: url("splash1.jpg");
+}
+
+.splash2 {
+    background-image: url("splash2.jpg");
+}
+
+.splash3 {
+    background-image: url("splash3.jpg");
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(255, 208, 0), orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
